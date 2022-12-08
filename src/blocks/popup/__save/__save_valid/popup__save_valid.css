@@ -1,0 +1,8 @@
+.popup__save_valid{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.popup__save_valid:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

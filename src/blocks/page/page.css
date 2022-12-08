@@ -1,0 +1,10 @@
+.page{
+    background-color: #000000;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .page{
+        max-width: 900px;
+    }
+}

@@ -1,0 +1,19 @@
+.profile__name-box{
+    display: grid;
+    grid-template-columns: fit-content(294px) min-content;
+    grid-template-rows: min-content min-content;
+    flex-grow: 1;
+    margin: 0 30px;
+    column-gap: 18px;
+    row-gap: 16px;
+    align-items: end;
+}
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .profile__name-box{
+      grid-template-columns: 1fr min-content;
+      margin: 22.5px auto 0 auto;
+      row-gap: 14px;
+      text-align: center;
+      justify-items: center;
+    }
+}

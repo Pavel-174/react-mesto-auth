@@ -1,0 +1,15 @@
+.header__link{
+  color: rgba(169, 169, 169, 1);
+  margin: 0 0 46px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .header__link{
+        margin: 18px 0 40px 0;
+    }
+}

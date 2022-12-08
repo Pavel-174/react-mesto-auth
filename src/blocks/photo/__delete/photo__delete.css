@@ -1,0 +1,17 @@
+.photo__delete{
+  display: none;
+  min-width: 18px;
+  min-height: 19px;
+  background: url(../../../images/Group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  padding: 0 0 0 0;
+}
+.photo__delete:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

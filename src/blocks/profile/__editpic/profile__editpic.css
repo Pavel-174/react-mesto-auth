@@ -1,0 +1,25 @@
+.profile__editpic {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(../../../images/pen.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin: 36px 0px 0px 0px;
+    padding: 0;
+    border: none;
+  }
+  
+  .profile__editpic:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 900px){
+    .profile__editpic{
+      margin: 38px 0px 0px 0px;
+    }
+}

@@ -1,0 +1,8 @@
+.header__box{
+    margin: 45px 0px 41px 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .header__box{
+        margin: 28px 0 31.6px 27px;
+    }
+}

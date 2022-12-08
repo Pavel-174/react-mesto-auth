@@ -1,0 +1,16 @@
+.header__text{
+  color: rgba(255, 255, 255, 1);
+  margin: 0 24px 46px 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .header__text{
+        margin: 40px 0 0 0;
+    }
+}

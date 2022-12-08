@@ -1,0 +1,7 @@
+.photo__text-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 30px 0 21px;
+}

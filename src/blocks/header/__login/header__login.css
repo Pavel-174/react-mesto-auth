@@ -1,0 +1,14 @@
+.header__login{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .header__login{
+        width: 100%;
+        max-width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
