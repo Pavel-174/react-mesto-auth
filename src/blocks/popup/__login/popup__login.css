@@ -1,0 +1,13 @@
+.popup__login {
+  box-sizing: border-box;
+  position: relative;
+  width: 430px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+  .popup__login{
+    width: 280px;
+  }
+}
