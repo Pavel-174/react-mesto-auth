@@ -99,15 +99,6 @@ function App() {
     });
   }, []);
 
-  useEffect(() => {
-    Promise.all([api.getUserInfo(), api.getInitialCards()]).then(([data, cards]) => {
-      setCurrentUser(data);
-      setCards(cards);
-    }).catch((err) => {
-      console.error(err);
-    });
-  }, []);
-
   function handleUpdateUser(data) {
     api.setUserInfo(data).then((newUser) => {
       setCurrentUser(newUser);
