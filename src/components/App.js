@@ -91,13 +91,17 @@ function App() {
   }
 
   useEffect(() => {
-    Promise.all([api.getUserInfo(), api.getInitialCards()]).then(([user, cards]) => {
-      setCurrentUser(user);
-      setCards(cards);
-    }).catch((err) => {
-      console.error(err);
-    });
-  }, []);
+    if (isLoggedIn) {
+      Promise.all([api.getUserInfo(), api.getInitialCards()])
+        .then(([user, cards]) => {
+          setCurrentUser(user);
+          setCards(cards);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
+  }, [isLoggedIn]);
 
   function handleUpdateUser(data) {
     api.setUserInfo(data).then((newUser) => {
