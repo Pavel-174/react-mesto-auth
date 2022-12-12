@@ -15,4 +15,4 @@
 * в проекте настроенны роуты
 * настроенна авторизация
 
-Ссылка на проект: https://pavel-174.github.io/mesto-react/
+Ссылка на проект: https://pavel-174.github.io/react-mesto-auth/
